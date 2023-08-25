@@ -7,7 +7,7 @@ with open(file_path, 'r') as file:
 total_priority = 0
 
 # Iterate through each line to find the common item type in both compartments for each rucksack
-for line in lines_day_3:
+for line in lines:
     line = line.strip()
     # Split the items into two sets, one for each compartment
     half_length = len(line) // 2
@@ -29,4 +29,4 @@ for line in lines_day_3:
     # Add the priority to the total sum
     total_priority += priority
 
-total_priority
+print(total_priority)
