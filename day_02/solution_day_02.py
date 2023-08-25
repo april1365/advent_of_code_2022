@@ -6,7 +6,7 @@ with open(file_path, 'r') as file:
 strategy_guide = []
 
 # Parse the input lines to extract the opponent's choice and your choice
-for line in lines_day_2:
+for line in lines:
     line = line.strip()
     opponent_choice, your_choice = line.split()
     strategy_guide.append((opponent_choice, your_choice))
