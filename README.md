@@ -4,3 +4,4 @@ This repository contains my solutions for the [Advent of Code 2022](https://adve
 
 ## Challenges
 - [Day 01](day_01/)
+- [Day 02](day_02/)
